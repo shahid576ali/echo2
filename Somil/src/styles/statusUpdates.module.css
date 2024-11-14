@@ -1,0 +1,85 @@
+.userTable {
+    width: 500px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    box-shadow: -1px 2px 23px -7px #b0bbb8;
+  }
+  
+  .header {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .header h3 {
+    margin: 0;
+    color: #333;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+
+  th, td {
+    text-align: left;
+    padding: 12px 10px;
+    border-bottom: 1px solid #f1f1f1;
+  }
+
+  th {
+    text-align: center;
+    background-color: #f1f1f1;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .userInfo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .avatar {
+    width: 40px;
+    height: 40px;
+    background-color: #ccc;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+  
+  .name {
+    font-weight: bold;
+  }
+  
+  .project {
+    color: #000000;
+    font-size: 0.9em;
+  }
+  
+  .statusLabel {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 15px;
+    color: white;
+    font-size: 0.8em;
+    font-weight: bold;
+    text-align: center;
+    min-width: 70px;
+  }
+  
+  /* Remove the userRow class styles since we're using table rows */
+  tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+  /* Make the table responsive */
+  @media (max-width: 520px) {
+    .userTable {
+      width: 100%;
+    }
+  }

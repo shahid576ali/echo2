@@ -1,0 +1,30 @@
+.pageTitleDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.mainContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0 10px; 
+}
+
+.assignWorkForm, .projectFormGroup {
+    flex: 1;
+    min-width: 300px; 
+    max-width: 45%; 
+    box-sizing: border-box;
+}
+
+
+@media (max-width: 768px) {
+    .assignWorkForm, .projectFormGroup {
+        max-width: 100%; 
+    }
+}

@@ -1,0 +1,44 @@
+.pageTitleDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:20px;
+}
+
+.pageContentDiv{
+margin-top: 50px;
+}
+
+.inputDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputDiv input{
+    background-color: transparent;
+    outline: none;
+    border: 1px solid black;
+    height:50px;
+    width: 50%;
+    border-radius: 10px 0px 0px 10px;
+    padding: 5px;
+    padding-left: 15px;
+    font-size: 1rem;
+    border-right:none;
+}
+
+.searchButton{
+    cursor: pointer;
+    padding: 14px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    outline: none;
+    font-size: 15px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-left: none;
+    border-radius: 0px 10px 10px 0px;
+
+}
+
