@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'poppins',san-serif;
+}
+body{
+    height: 100%;
+    margin: 0;
+}
+nav{
+    background-color: rgb(145, 59, 232);
+    width: 100%;
+    padding: 10px 0;
+
+}
+nav .menu{
+    max-width: 100%;
+    
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.menu .logo a{
+    margin-left: 40px;
+    text-decoration: none;
+    color:#fff;
+    font-size: 35px;
+    font-weight:600 ;
+}
+.fa-users{
+    color: rgb(11, 11, 11);
+     font-size: 50px;
+
+}
+.menu .logo a:hover{
+    color: rgb(46, 6, 86);;
+}
+.menu  ul {
+    display: inline-flex;
+}
+.menu ul li{
+    list-style: none;
+    margin-left: 10px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;  
+    
+}
+
+.menu ul li a:hover{
+    background: #fff;
+    color: #000;
+}
+
+.imgbg{
+    background-image: url(../../form/image.avif);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 400px;
+    width: 100%;
+}
+footer{
+    display: flex;
+    position: absolute;
+    padding-left: 45%;
+    bottom: 0;
+    padding-bottom: 2%;
+    
+}
+footer a{
+    margin: 0 10px;
+    font-size: 28px;
+}
+.fa-facebook{
+    color: rgb(59, 59, 189);
+}
+.fa-square-x-twitter{
+    color: black;
+}
+.fa-youtube{
+    color: red;
+}
+.fa-instagram{
+    color: rgb(230, 75, 214);
+
+}
+  p{
+    margin: 10%;
+ font-weight: bold;
+    font-size: 50px;
+    color: rgb(142, 63, 203);
+    font-family: 'poppins',san-serif;
+    padding-left: 2%;
+    margin-left: 15px;
+}
+.fa-book{
+ margin-top: 20px;
+}
+@media screen and (max-width:414px){
+     p{
+        font-size: 20px;
+     }
+     .imgbg{
+       
+       width: 50px;
+      nav{
+        position: absolute;
+      } 
+        
+     }
+     footer{
+        margin-bottom: 5px;
+     }
+   
+}
