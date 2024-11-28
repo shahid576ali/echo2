@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="dashboard.css">
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+
+<body>
+
+  <nav class="navbar">
+
+
+    <div class="logo">
+
+      <a href="#">Internship</a>
+    </div>
+
+    <ul id="list">
+      <li><a href="#">home</a> </li>
+      <li><a href="#">about</a></li>
+      <li><a href="#">courses</a></li>
+      <li><a href="#">contact</a></li>
+      <li><a href="#">feedback</a></li>
+
+    </ul>
+    
+    <i class="ri-menu-line" id="menu"></i>
+
+
+  </nav>
+  <div class="main">
+    
+      <p> welcome to the internship program <br>
+       here you can learn everything <br>
+        creative brains </p>
+    
+   
+    <img src="/form/image.png" alt="image">
+  </div>
+  <footer class="footer">
+   
+    <div class="media">
+     <a href="#"> <i class="ri-facebook-circle-fill"></i>
+      <i class="ri-instagram-line"></i>
+      <i class="ri-twitter-fill"></i>
+      <i class="ri-whatsapp-fill"></i>
+      <i class="ri-youtube-fill"></i></a>
+    </div>
+  </footer>
+  <script>
+    // <i class="ri-close-fill"></i>
+   let menu = document.getElementById("menu")
+   let list = document.getElementById("list")
+   let rev =true
+   
+   menu.addEventListener("click",()=>{
+    if(rev){
+      menu.classList.remove("ri-menu-line") 
+      menu.classList.add("ri-close-fill")
+    list.style.display="flex"
+    }
+    else{
+      menu.classList.remove("ri-close-fill") 
+      menu.classList.add("ri-menu-line")
+    list.style.display="none"
+    }
+     rev = !rev
+   })
+  </script>
+
+</body>
+
+</html>
